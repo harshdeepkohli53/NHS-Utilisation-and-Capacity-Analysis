@@ -27,11 +27,44 @@ The report considered the two primary business questions as proposed by the NHS:
 
 **Key Insights and Recommendations:**
 
-•	Incentivize more telephone appointments. In general, we can see that attendance for telephone appointments is greater. A limitation is that we don’t know what groups of patients prefer telephone appointments, but we could consider offering telephone appointments for groups more likely to miss face-to-face appointments (e.g. younger patients or those with mobility issues). Measure success by comparing attendance rates prior to expanding telephone appointment volumes and after expanding.
-•	Keep time between booking and appointment short as these appointments are more likely to be attended. 
-•	Increase staff capacity earlier in the week as demand is highest on Mondays & Tuesdays.
-•	Monitor staff specific DNA rates. Other practice staff have higher DNA rates and average wait times than GPs, but they conduct proportionally more face-to-face appointments, so consider expanding telephone appointments for them help reduce missed appointments.
-•	Finally twitter data proved to be less useful, but potential insights can be unlocked through cleaned, ethical analysis using relevant hashtags.
+•	I identified telephone appointments having a higher attendance % compared to face-to-face appointments and suggested that the NHS should increase telephone appointment volumes.
+
+![lineplot_att_mode_monthly](https://github.com/user-attachments/assets/fd2132c0-4ecf-4a55-8189-c6b811bb3156)
+
+
+•	I identified that there is a statistically significant positive correlation between higher wait times and missed appointment rate (correlation coefficient = 0.89 & P-value = 0.0075). I suggested keeping time between booking and appointment short as these appointments are more likely to be attended. 
+
+![correlation_wait_dna](https://github.com/user-attachments/assets/88077a42-d67f-47d4-aeac-6a999e6f32d1)
+
+![boxplot_wait_mode](https://github.com/user-attachments/assets/34933972-af08-48f6-8bd1-b20b8753ac96)
+
+
+•	I identified that Tuesday is the busiest day of the week, followed by Monday. I also identified that Monday and Tuesdays were the most common days when utilisation exceeded capacity, and therfore recommended to increase staff capacity earlier in the week to keep up with demand.
+
+![barplot_appt_dow](https://github.com/user-attachments/assets/2ea8a6bf-206e-4b0b-b994-e4cf8375b19e)
+
+![lineplot_appt_dow](https://github.com/user-attachments/assets/b94361db-59c2-46dd-9507-e3c614f8dc66)
+
+![barplot_util_above_capacity_dow](https://github.com/user-attachments/assets/de12b5b5-8185-418c-9251-cf4a23d2fe3d)
+
+
+•	I identified Other practice staff having higher missed apppointment rates and average wait times than GPs, but they conduct proportionally more face-to-face appointments, so suggested expanding telephone appointments for Other practice staff to help them reduce missed appointments. By monitoring staff specific missed appointment rates, the NHS could find inefficiecies in their operations and improve total attendance.
+
+![stacked_barplot_appt_hcp_mode](https://github.com/user-attachments/assets/f0f76a91-5351-4363-a3a5-e5bc88bfb1c2)
+
+![barplot_hcp_dna](https://github.com/user-attachments/assets/ca665d7b-6184-4714-a980-5a7fdaa375df)
+
+![barplot_avg_wait_hcp](https://github.com/user-attachments/assets/143af13c-f20c-4eac-abe4-a4e370b2e91e)
+
+
+•	I noted that the 4% of missed appointments costs the NHS approximately £927 million from January 2020 to June 2022, underscoring the financial impact of data quality and patient attendance. In 2019 a report on the cost of missing appointments calculated the following:
+“Each appointment costs an average of £30, putting the total cost to the NHS at more than £216 million pounds on top of the disruption for staff and fellow patients that would pay for:
+The annual salary of 2,325 full time GPs
+224, 640 cataract operations
+58,320 hip replacement operations
+216,000 drug treatment courses for Alzheimer’s
+The annual salary of 8, 424 full time community nurses”. (NHS, 2019)
+If we apply that £30 missed appointment metric to our data, then 30,911,233 not attended appointments over the 18 months period that the dataset covers costs the NHS £ 927,336,990
 
 
 **Professional Development and Impact:**
