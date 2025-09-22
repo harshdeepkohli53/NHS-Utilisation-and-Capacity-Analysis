@@ -1,4 +1,4 @@
-# NHS assignment - Diagnostic Analysis using Python (Final Grade: 84%)
+# NHS assignment - Diagnostic Analysis using Python (Final Grade: Distinction)
 
 Project Summary: The second six week LSE project involved working with real-world data to address a problem faced by the National Health Service (NHS). The project was aimed at addressing the issues of adequate capacity and utilisation within the system by considering appointment data to help reduce missed appointments. The analysis required me to utilise Python to explore the available data, create visualisations to identify trends, and extract meaningful insights to inform decision-making.
 
